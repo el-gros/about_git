@@ -1,5 +1,8 @@
-## Para subir a github...
+## Upload to github...
 git remote add origin "url"
 git remote set-url origin "url"
 git remote -v
 git push -u remote main
+
+# Problems with file ownership
+takeown /f filename /r
