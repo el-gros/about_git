@@ -1,0 +1,39 @@
+## Start git in a folder...
+git init
+git config --global user-name "..."
+git config --global user-email "..."
+git branch -m main
+
+# Commit
+git status
+git add filename 	git add .
+git commit -m "..."
+
+# List commits
+git log
+git log --graph --pretty=oneline
+
+# Back to last commit
+git checkout filename
+
+# Branches
+git branch name
+git switch name
+
+# Merge
+git merge main
+
+# Stash
+git stash
+git stash list
+
+# Check
+git reset
+git diff
+git tag
+git checkout tags/name
+git stash pop
+git stash drop
+git diff branchname
+git merge branchname
+

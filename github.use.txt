@@ -6,3 +6,11 @@ git push -u origin main
 
 # Problems with file ownership
 takeown /f filename /r
+
+# Pull and push
+git fetch (descarga historial)
+git pull (descarga historial y cambios)
+git pull origin main
+
+# Check
+git clone
