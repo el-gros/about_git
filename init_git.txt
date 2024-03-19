@@ -1,0 +1,8 @@
+## Para iniciar git en una carpeta...
+git init
+git config --global user-name "..."
+git config --global user-email "..."
+git branch -m main
+git status
+git add filename 	git add .
+git commit -m "..."
